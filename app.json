@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Radio Revolution",
+    "slug": "radio-revolution",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.radiorevolution.app",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.radiorevolution.app"
+    },
+    "plugins": [
+      "react-native-track-player"
+    ]
+  }
+}
